@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1090689306247",
+    "project_id": "informher-7095b",
+    "storage_bucket": "informher-7095b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090689306247:android:bec891b34936f7c9a4f222",
+        "android_client_info": {
+          "package_name": "com.example.inform_her"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090689306247-4ok7jb5vppj4836gnec4tbn3ou7743ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo4f2I8Bk_meAoLHUWiOLNRloT_7gIoTc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090689306247-4ok7jb5vppj4836gnec4tbn3ou7743ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
