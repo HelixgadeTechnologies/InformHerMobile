@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import '../../Provider/AuthProvider/user_authentication.dart';
 import '../../Styles/colors.dart';
 import '../../Styles/font_size.dart';
-import '../DashBoardScreen/Home.dart';
-import 'SignUp.dart';
 import 'login.dart';
 
 class ForgotPassword extends StatefulWidget {
@@ -174,7 +171,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                           )),
                                         ),
                                         child: Padding(
-                                          padding: EdgeInsets.only(
+                                          padding: const EdgeInsets.only(
                                               top: 17,
                                               left: 125,
                                               right: 123,
@@ -194,7 +191,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                     ),
                                   ],
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   height: 30,
                                 ),
                                 GestureDetector(
@@ -202,7 +199,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                                     Navigator.push(
                                         context,
                                         MaterialPageRoute(
-                                            builder: (context) => LoginPage()));
+                                            builder: (context) => const LoginPage()));
                                   },
                                   child: Text(
                                     " Remember account? Sign In",
@@ -220,8 +217,8 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                   ],
                 ),
               )
-            : Center(
-                child: const CircularProgressIndicator(),
+            : const Center(
+                child: CircularProgressIndicator(),
               ));
     ;
   }
